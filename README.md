@@ -22,4 +22,4 @@ Business risks of proxy‑based prediction:
 | Regulatory acceptance | Widely accepted for scorecards; easy to document and monitor. | Often requires additional validation and may face higher scrutiny. |
 | Development time | Fast to train and tune. | Slower; more hyperparameters. |
 
-In a regulated setting, interpretability often trumps marginal performance gains. Many banks use logistic regression scorecards for regulatory capital models, while using gradient boosting for early warning systems or non‑regulatory applications. The trade‑off is between accuracy and accountability.
+In a regulated setting, interpretability often trumps marginal performance gains. Many banks use logistic regression scorecards for regulatory capital models, while using gradient boosting for early warning systems or non‑regulatory applications. The trade‑off is between accuracy and accountability.  
