@@ -1,0 +1,29 @@
+# Python
+_pycache_/
+*.pyc
+.env
+venv/
+.venv/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb-
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# Logs and MLflow
+logs/
+mlruns/
+*.log
+
+#IDE
+.vscode/
+.idea/
