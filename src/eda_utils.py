@@ -51,4 +51,4 @@ def customer_aggregates(df):
     print(customer_data.describe())
     return customer_data
 
-add eda__utils.py with reusable functions
+
