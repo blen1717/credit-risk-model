@@ -49,6 +49,6 @@ def customer_aggregates(df):
     ).reset_index()
     print(customer_data.head())
     print(customer_data.describe())
-    return customer_data
+    return customer_data  
 
 
