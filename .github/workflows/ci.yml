@@ -17,6 +17,7 @@ jobs:
           python-version: '3.9'
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install pytest fastapi uvicorn scikit-learn pandas numpy
-      - name: Test with pytest
+      - name: Run tests
         run: pytest test_api.py -v
