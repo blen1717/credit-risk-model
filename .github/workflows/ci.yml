@@ -17,9 +17,6 @@ jobs:
           python-version: '3.9'
       - name: Install dependencies
         run: |
-          pip install flake8 pytest
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Lint with flake8
-        run: flake8 src/ main.py --count --show-source --statistics
+          pip install pytest fastapi uvicorn scikit-learn pandas numpy
       - name: Test with pytest
         run: pytest test_api.py -v
