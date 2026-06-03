@@ -18,4 +18,4 @@ def test_predict_valid():
 
 def test_predict_invalid():
     response = client.post("/predict", json={"features": [1, 2, 3]})
-    assert response.status_code == 400
+    assert response.status_code == 400  
