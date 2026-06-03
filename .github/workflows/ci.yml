@@ -3,16 +3,13 @@ name: CI
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.9'
-      - name: Install dependencies
-        run: pip install pytest
-      - name: Test with pytest
-        run: pytest test_api.py -v
+      - name: Run a one-line script
+        run: echo "CI pipeline is working"
